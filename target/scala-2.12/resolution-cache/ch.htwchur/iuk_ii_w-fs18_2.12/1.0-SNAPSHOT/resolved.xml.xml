@@ -4,7 +4,7 @@
 		module="iuk_ii_w-fs18_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180220170314"
+		publication="20180319143222"
 	>
 		<description>
 		iuk_ii_w-fs18
@@ -50,5 +50,6 @@
 		<dependency org="com.typesafe.play" name="play-logback_2.12" rev="2.6.11" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-akka-http-server_2.12" rev="2.6.11" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.11" conf="compile->default(compile)"/>
+		<dependency org="io.swagger" name="swagger-play2_2.12" rev="1.6.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

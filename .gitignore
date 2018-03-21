@@ -4,16 +4,17 @@ target
 .idea
 .idea_modules
 .vscode
-Running_PID
+RUNNING_PID
 generated.keystore
 generated.truststore
 *.log
+.DS_Store
 
-#Scala-IDE specific
+# Scala-IDE specific
 bin/
 .scala_dependencies
 .classpath
 .project
 .settings/
 .cache-main
-.chache-tests
+.cache-tests
