@@ -8,13 +8,12 @@ RUNNING_PID
 generated.keystore
 generated.truststore
 *.log
-.DS_Store
 
 # Scala-IDE specific
 bin/
 .scala_dependencies
 .classpath
-.project
+project
 .settings/
 .cache-main
 .cache-tests

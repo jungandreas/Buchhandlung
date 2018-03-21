@@ -1,0 +1,152 @@
+{
+	"info": {
+		"name": "IuK II W",
+		"_postman_id": "8b12475d-0ac8-cc89-094f-7d236d68e163",
+		"description": "Framework-basierte Webapplikationen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9000/api/books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:9000/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"books"
+					]
+				},
+				"description": "Alle Bücher abfragen"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/api/books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:9000/api/books?q=Corsin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"books"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Corsin",
+							"equals": true
+						}
+					]
+				},
+				"description": "Suche nach Büchern"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/api/books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:9000/api/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"books",
+						"1"
+					]
+				},
+				"description": "Abfragen der Buchdetails für Buch mit ID "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/api/books",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:9000/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"books"
+					]
+				},
+				"description": "Neues Buchdetail erfassen"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/api/books",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:9000/api/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"books",
+						"1"
+					]
+				},
+				"description": "Buchdetail für Buch mit ID aktuallisieren"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/api/books",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:9000/api/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"books",
+						"1"
+					]
+				},
+				"description": "Buch mit entsprechender ID löschen"
+			},
+			"response": []
+		}
+	]
+}
